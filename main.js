@@ -57,3 +57,5 @@ app.on('ready', () => {
   ]);
   tray.setContextMenu(contextMenu);
 });
+
+app.dock.hide();
