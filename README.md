@@ -1,5 +1,7 @@
 # `▲llEye—`
-> Show hidden files, then hide them again, from the tray on macOS.
+> Show hidden files, then hide them again, from the tray on macOS.  
+
+![preview](https://github.com/gvost/all-eye/blob/master/preview.png)
 
 Created this app for anyone who doesn't necessarily want to open a terminal or hunt down some menu or whatnot to show/hide hidden files. Right now, this is a dead simple app, it does only what it says (show/hide hidden files on macOS from the tray).
 
