@@ -1,0 +1,10 @@
+version: 0.1.2
+files:
+  - url: alleye-0.1.2-mac.zip
+    sha512: NFz/JgaF/Lzu+5XCtdXGZnJHYRxZOMtpKvtJTLMryUunrc5l6CvokGzx233jz2hMteOG8d7OrJRzcxE9yi+Z/Q==
+  - url: alleye-0.1.2.dmg
+    sha512: pka/0YJT+jhtwCaIiCEuC6/aVEQ6UX4K99Umy8R9f4ztWvgPP/50IisdoKrC8NYwcItRKFPYIhm7IDCXfUnzSw==
+    size: 45592484
+path: alleye-0.1.2-mac.zip
+sha512: NFz/JgaF/Lzu+5XCtdXGZnJHYRxZOMtpKvtJTLMryUunrc5l6CvokGzx233jz2hMteOG8d7OrJRzcxE9yi+Z/Q==
+releaseDate: '2017-11-09T08:07:55.942Z'

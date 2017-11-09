@@ -1,25 +1,49 @@
 {
-  "name": "all-eye",
-  "version": "0.1.0",
+  "name": "alleye",
+  "productName": "▲llEye",
+  "version": "0.1.2",
   "description": "▲llEye— Show hidden files, then hide them again, from the tray on macOS.",
-  "devDependencies": {
-    "electron": "^1.7.9",
-    "electron-builder": "^19.43.0",
-    "electron-packager": "^5.1.0",
-    "electron-prebuilt": "^0.36.0"
-  },
   "main": "main.js",
+  "email": "<davidjohnson1297@gmail.com>",
+  "author": {
+    "name": "David Johnson (gvost)",
+    "email": "<davidjohnson1297@gmail.com>"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gvost/alleye.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gvost/alleye/issues"
+  },
   "scripts": {
     "build": "electron-packager . ▲llEye --platform=darwin --arch=x64 --version=0.36.0 --icon=Icon.icns",
-    "start": "electron ."
+    "start": "electron ./app"
   },
-  "author": "gvost <davidjohnson1297@gmail.com>",
   "build": {
     "appId": "io.gvost.alleye",
+    "copyright": "©2017 David Johnson",
     "mac": {
-      "target": "zip",
-      "icon": "./Icon.icns",
+      "icon": "app/asset/Icon.icns",
       "category": "public.app-category.developer-tools"
+    },
+    "dmg": {
+      "background": "build/background.png",
+      "icon": "build/AppIcon.icns",
+      "iconSize": 80,
+      "contents": [
+        {
+          "x": 380,
+          "y": 240,
+          "type": "link",
+          "path": "/Applications"
+        },
+        {
+          "x": 122,
+          "y": 240,
+          "type": "file"
+        }
+      ]
     }
   }
 }
