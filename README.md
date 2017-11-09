@@ -1,4 +1,4 @@
-# `▲llEye—`
+# [`▲llEye—`](http://all-eye.io)
 > Show hidden files, then hide them again, from the tray on macOS.  
 
 ![preview](https://github.com/gvost/all-eye/blob/master/asset/preview.png)
