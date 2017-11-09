@@ -17,7 +17,7 @@
     "url": "https://github.com/gvost/alleye/issues"
   },
   "scripts": {
-    "build": "electron-packager . ▲llEye --platform=darwin --arch=x64 --version=0.36.0 --icon=Icon.icns",
+    "build": "electron-builder build",
     "start": "electron ./app"
   },
   "build": {
